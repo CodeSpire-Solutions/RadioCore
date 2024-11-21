@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(radio_p_s_r LANGUAGES CXX)
+project(radio_core LANGUAGES CXX)
 
-set(BINARY_NAME "radio_p_s_r")
+set(BINARY_NAME "radio_core")
 
 cmake_policy(SET CMP0063 NEW)
 

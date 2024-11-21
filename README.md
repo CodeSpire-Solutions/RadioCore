@@ -1,4 +1,4 @@
-# RadioPSR
+# RadioCore
 
 A new Flutter project.
 
