@@ -21,6 +21,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => HomePageModel());
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override
@@ -39,18 +41,20 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
           top: true,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              FlutterFlowWebView(
-                content: 'https://radiopsr.raudio-online.de/?stream=7',
-                bypass: false,
-                width: MediaQuery.sizeOf(context).width * 1.0,
-                height: MediaQuery.sizeOf(context).height * 1.0,
-                verticalScroll: false,
-                horizontalScroll: false,
-              ),
-            ],
+          child: SizedBox(
+            width: MediaQuery.sizeOf(context).width * 1.0,
+            height: MediaQuery.sizeOf(context).height * 1.0,
+            child: Stack(
+              children: [
+                FlutterFlowWebView(
+                  content: 'https://autocenter-hinkel.de/radcre-core-rad/',
+                  width: MediaQuery.sizeOf(context).width * 1.0,
+                  height: MediaQuery.sizeOf(context).height * 1.0,
+                  verticalScroll: false,
+                  horizontalScroll: false,
+                ),
+              ],
+            ),
           ),
         ),
       ),

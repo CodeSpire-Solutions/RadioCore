@@ -1,4 +1,4 @@
-package com.mycompany.radiocore
+package org.codespiresolutions.radiocore
 
 import io.flutter.embedding.android.FlutterActivity
 
