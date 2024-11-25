@@ -2,7 +2,7 @@
 
 #### Description
 
-> RadioCore is an App that allow you to hear RadioPSR with an Discord RPC an directly from the PC without needing a Browser. And by the way support RadioPSR!
+> RadioCore is an App that allows you to hear RadioPSR with an Discord RPC and directly from the PC without needing a Browser. And by the way support RadioPSR!
 
 <img src= "./assets/images/radiocore.png" alt="your-image-description" width="250" style="border-radius:75;">
 
