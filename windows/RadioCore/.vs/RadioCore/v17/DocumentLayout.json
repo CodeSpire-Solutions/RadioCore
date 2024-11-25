@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dokumente\\Projects\\RadioCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DB113-03D0-4975-970D-1F2D23E38362}|RadioCore\\RadioCore.csproj|d:\\dokumente\\projects\\radiocore\\radiocore\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56DB113-03D0-4975-970D-1F2D23E38362}|RadioCore\\RadioCore.csproj|solutionrelative:radiocore\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56DB113-03D0-4975-970D-1F2D23E38362}|RadioCore\\RadioCore.csproj|d:\\dokumente\\projects\\radiocore\\radiocore\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D56DB113-03D0-4975-970D-1F2D23E38362}|RadioCore\\RadioCore.csproj|solutionrelative:radiocore\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Dokumente\\Projects\\RadioCore\\RadioCore\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RadioCore\\MainWindow.xaml",
+              "ToolTip": "D:\\Dokumente\\Projects\\RadioCore\\RadioCore\\MainWindow.xaml",
+              "RelativeToolTip": "RadioCore\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-25T20:34:58.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Dokumente\\Projects\\RadioCore\\RadioCore\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RadioCore\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Dokumente\\Projects\\RadioCore\\RadioCore\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RadioCore\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:34:57.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

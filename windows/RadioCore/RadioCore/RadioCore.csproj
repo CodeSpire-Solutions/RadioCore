@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Title>RadioCore</Title>
+    <Version>0.0.1</Version>
+    <Company>CodeSpire-Solutions</Company>
+    <PackageIcon></PackageIcon>
+    <RepositoryUrl>https://github.com/CodeSpire-Solutions/RadioCore</RepositoryUrl>
+    <PackageReleaseNotes>Test Release</PackageReleaseNotes>
+    <IncludeSymbols>False</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscordRichPresence" Version="1.2.1.24" />
+    <PackageReference Include="NetDiscordRpc" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="RadioCore.ico" Link="Assets\RadioCore.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
